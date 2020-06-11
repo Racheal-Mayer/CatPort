@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="~/css/Results.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <title>Results</title>
+</head>
+<body>
+                <div class="links">
+    <a href="/"> Home </a>
+    <a href="/Projects"> Projects </a>
+    <a href="/Contacts"> Contacts </a><br>
+    <div class="container">
+
+
+
+    <h1>Thanks for contacting me @ViewBag.Name!</h1>
+    <p>The email I will contact you back at is: @ViewBag.Email <br>
+    Your message sent was, "@ViewBag.Message"</p> <br>
+    <p>Message was received on: @DateTime.Now.ToString("dddd, d, MMMM, yyyy") at >@DateTime.Now.ToString("h:mm tt")</p>
+    <p class="sign">I look forward to speaking with you, <br> Cat.</p>
+
+    </div>
+    </div>
+</body>
+</html>
